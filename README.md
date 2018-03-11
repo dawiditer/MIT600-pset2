@@ -1,4 +1,4 @@
-# MIT600-pset2
+# Diophantine equations
 Problem 1.
 Show that it is possible to buy exactly 50, 51, 52, 53, 
 54, and 55 McNuggets, by finding solutions to the 
