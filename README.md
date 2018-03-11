@@ -1,0 +1,27 @@
+# MIT600-pset2
+Problem 1.
+Show that it is possible to buy exactly 50, 51, 52, 53, 
+54, and 55 McNuggets, by finding solutions to the 
+Diophantine equation.  You can solve this in your head, 
+using paper and pencil, or writing a program.  
+However you chose to solve this problem, list the combinations 
+of 6, 9 and 20 packs of McNuggets you need to buy in order to 
+get each of the exact amounts.
+Given that it is possible to buy sets of 50, 51, 52, 53, 54 or 
+55 McNuggets by combinations of 6, 9 and 20 packs, show that it 
+is possible to buy 56, 57,…, 65 McNuggets.  In other words, show 
+how, given solutions for 50-55, one can derive solutions for 56-65.
+
+Theorem:  If it is possible to buy x, x+1,…, x+5 sets of McNuggets, 
+for some x, then it is possible to buy any number of McNuggets >= x, 
+given that McNuggets come in 6, 9 and 20 packs. 
+
+Problem 2.
+Explain, in English, why this theorem is true. 
+
+Problem 3.
+Write an iterative program that finds the largest number of McNuggets 
+that cannot be bought in exact quantity.  Your program should print the 
+answer in the following format (where the correct number is provided in 
+place of <n>): 
+“Largest number of McNuggets that cannot be bought in exact quantity: <n>”
